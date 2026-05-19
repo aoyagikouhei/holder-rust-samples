@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "rwlock_holder"
+		},
+		{
+			"path": "mutex_holder"
+		}
+	],
+	"settings": {}
+}

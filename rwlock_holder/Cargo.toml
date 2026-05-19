@@ -3,4 +3,13 @@ name = "rwlock_holder"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "rwlock_holder"
+path = "src/main.rs"
+
+[[bin]]
+name = "rwlock_holder_usage"
+path = "src/main2.rs"
+
 [dependencies]
+chrono = { version = "0.4", features = ["serde", "clock"] }
